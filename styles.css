@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      height: 150px;               /* sets height of the element */
+      background-color: lightblue; /* background color */
+      color: darkblue;             /* text color */
+      padding: 20px;
+      border: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    This is a box with a height of 150px, a light blue background, and dark blue text.
+  </div>
+
+</body>
+</html>

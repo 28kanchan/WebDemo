@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Azure Web App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f4f6f8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .card h1 {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      font-size: 1rem;
+      color: white;
+      background: linear-gradient(45deg, #0078D4, #00B4F0);
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(45deg, #005fa3, #0095c9);
+    }
+
+    @media (max-width: 500px) {
+      .card {
+        margin: 0 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hello, Azure 🌐</h1>
+    <p>This is a modern, mobile-friendly card-style HTML web app. Fully deployable on Azure for trial.</p>
+    <button class="btn" onclick="alert('Azure says hi!')">Say Hi</button>
+  </div>
+</body>
+</html>
